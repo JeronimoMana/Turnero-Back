@@ -9,11 +9,11 @@
     "routes": [
         {
             "src": "/users",
-            "dest": "./dist/index.js"
+            "dest": "./dist/routes/index.js"
         },
         {
             "src": "/(.*)",
-            "dest": "./dist/index.js"
+            "dest": "./dist/routes/index.js"
         }
     ]
 }
