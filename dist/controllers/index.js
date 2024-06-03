@@ -50,6 +50,7 @@ var UserController = function (req, res) { return __awaiter(void 0, void 0, void
                 return [4, (0, services_1.UserServices)()];
             case 2:
                 _a.sent();
+                res.status(201).json("Usuario creado correctamente ");
                 return [3, 4];
             case 3:
                 error_1 = _a.sent();
