@@ -1,3 +1,5 @@
+
 export const UserServices = async () => {
-    console.log("holaaaaaaa")
+    const users = []
+    users.push("jeronimo")
 }
